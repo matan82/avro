@@ -1,0 +1,93 @@
+{
+    "type": "record",
+    "namespace": "com.aolnetworks.video.event",
+    "name": "AOLMobileAppAdImpression",
+    "fields": [{
+        "name": "date",
+        "type": "string"
+    }, {
+        "name": "time",
+        "type": "string"
+    }, {
+        "name": "ip",
+        "type": "string"
+    }, {
+        "name": "countryCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "region",
+        "type": ["string", "null"]
+    }, {
+        "name": "UserAgent",
+        "type": ["string", "null"]
+    }, {
+        "name": "sid",
+        "type": "int"
+    }, {
+        "name": "urlId",
+        "type": ["string", "null"]
+    }, {
+        "name": "content",
+        "type": ["int", "null"]
+    }, {
+        "name": "vCat",
+        "type": ["string", "null"]
+    }, {
+        "name": "vid",
+        "type": ["long", "null"]
+    }, {
+        "name": "auStart",
+        "type": ["int", "null"]
+    }, {
+        "name": "vFlg",
+        "type": ["int", "null"]
+    }, {
+        "name": "mId",
+        "type": ["long", "null"]
+    }, {
+        "name": "uid",
+        "type": ["long", "null"]
+    }, {
+        "name": "vg",
+        "type": ["int", "null"]
+    }, {
+        "name": "imid",
+        "type": ["string", "null"]
+    }, {
+        "name": "vvuid",
+        "type": ["string", "null"]
+    }, {
+        "name": "DeviceName",
+        "type": ["string", "null"]
+    }, {
+        "name": "DeviceVersion",
+        "type": ["string", "null"]
+    }, {
+         "name": "auId",
+         "type": ["int", "null"]
+    }, {
+         "name": "creId",
+         "type": ["int", "null"]
+    }, {
+         "name": "dType",
+         "type": ["string", "null"]
+    }, {
+         "name": "Lrn",
+         "type": ["int", "null"]
+    }, {
+         "name": "prot",
+         "type": ["int", "null"]
+    }, {
+         "name": "ss",
+         "type": ["string", "null"]
+    }, {
+        "name": "city",
+        "type": ["string", "null"]
+    }, {
+        "name": "postalCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "stateProvince",
+        "type": ["string", "null"]
+    }]
+}

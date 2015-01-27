@@ -1,0 +1,77 @@
+{
+    "type": "record",
+    "namespace": "com.aolnetworks.video.event",
+    "name": "AdRequest",
+    "fields": [{
+        "name": "date",
+        "type": ["string", "null"]
+    }, {
+        "name": "time",
+        "type": ["string", "null"]
+    }, {
+        "name": "ip",
+        "type": "string"
+    }, {
+        "name": "countryCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "region",
+        "type": ["string", "null"]
+    }, {
+        "name": "sid",
+        "type": "int"
+    }, {
+        "name": "sKey",
+        "type": ["int", "null"]
+    }, {
+        "name": "urlId",
+        "type": ["string", "null"]
+    }, {
+        "name": "vid",
+        "type": ["long", "null"]
+    }, {
+        "name": "ss",
+        "type": ["string", "null"]
+    }, {
+        "name": "segh",
+        "type": ["string", "null"]
+    }, {
+        "name": "utid",
+        "type": ["string", "null"]
+    }, {
+        "name": "nw",
+        "type": ["long", "null"]
+    }, {
+        "name": "caid",
+        "type": ["int", "null"]
+    }, {
+        "name": "prof",
+        "type": ["string", "null"]
+    }, {
+        "name": "tpcl",
+        "type": ["string", "null"]
+    }, {
+        "name": "requestkv",
+        "type": ["string", "null"]
+    }, {
+        "name": "tpos",
+        "type": ["int", "null"]
+    }, {
+        "name": "vprn",
+        "type": ["string", "null"]
+    }, {
+        "name": "pvrn",
+        "type": ["string", "null"]
+    }, {
+        "name": "city",
+        "type": ["string", "null"]
+    }, {
+        "name": "postalCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "stateProvince",
+        "type": ["string", "null"]
+    }]
+}
+
+

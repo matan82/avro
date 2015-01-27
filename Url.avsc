@@ -1,0 +1,82 @@
+{
+    "type": "record",
+    "namespace": "com.aolnetworks.video.event",
+    "name": "Url",
+    "fields": [{
+       "name": "date",
+       "type": "string"
+    }, {
+       "name": "time",
+       "type": "string"
+    }, {
+       "name": "ip",
+       "type": "string"
+    }, {
+       "name": "countryCode",
+       "type": ["string", "null"]
+    }, {
+       "name": "region",
+       "type": ["string", "null"]
+    }, {
+       "name": "UserAgent",
+       "type": ["string", "null"]
+    }, {
+       "name": "osVer",
+       "type": ["string", "null"]
+    }, {
+       "name": "broVer",
+       "type": ["string", "null"]
+    }, {
+        "name": "sid",
+        "type": "int"
+    }, {
+        "name": "sKey",
+        "type": ["int", "null"]
+    }, {
+        "name": "proTy",
+        "type": ["int", "null"]
+    }, {
+        "name": "h",
+        "type": ["string", "null"]
+    }, {
+        "name": "hl",
+        "type": ["string", "null"]
+    }, {
+        "name": "f",
+        "type": ["string", "null"]
+    }, {
+        "name": "uid",
+        "type": ["long", "null"]
+    }, {
+        "name": "urlId",
+        "type": ["string", "null"]
+    }, {
+       "name": "catsReq",
+       "type": ["string", "null"]
+    }, {
+       "name": "content",
+       "type": ["int", "null"]
+    }, {
+       "name": "cqReq",
+       "type": ["int", "null"]
+    }, {
+        "name": "fType",
+        "type": ["int", "null"]
+    }, {
+        "name": "Lrn",
+        "type": ["int", "null"]
+    }, {
+        "name": "prot",
+        "type": ["int", "null"]
+    }, {
+        "name": "city",
+        "type": ["string", "null"]
+    }, {
+        "name": "postalCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "stateProvince",
+        "type": ["string", "null"]
+    }]
+}
+

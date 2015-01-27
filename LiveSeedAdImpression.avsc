@@ -1,0 +1,166 @@
+{
+    "type": "record",
+    "namespace": "com.aolnetworks.video.event",
+    "name": "LiveSeedAdImpression",
+    "fields": [{
+        "name": "date",
+        "type": "string"
+    }, {
+        "name": "time",
+        "type": "string"
+    }, {
+        "name": "ip",
+        "type": ["string", "null"]
+    }, {
+        "name": "countryCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "region",
+        "type": ["string", "null"]
+    }, {
+        "name": "UserAgent",
+        "type": ["string", "null"]
+    }, {
+        "name": "osVer",
+        "type": ["string", "null"]
+    }, {
+        "name": "broVer",
+        "type": ["string", "null"]
+    }, {
+        "name": "sid",
+        "type": "int"
+    }, {
+        "name": "sKey",
+        "type": ["int", "null"]
+    }, {
+        "name": "urlId",
+        "type": ["string", "null"]
+    }, {
+        "name": "vCat",
+        "type": ["string", "null"]
+    }, {
+        "name": "pgLoc",
+        "type": ["int", "null"]
+    }, {
+        "name": "vid",
+        "type": ["long", "null"]
+    }, {
+        "name": "sessImp",
+        "type": ["int", "null"]
+    }, {
+        "name": "sessView",
+        "type": ["int", "null"]
+    }, {
+        "name": "viewSrc",
+        "type": ["int", "null"]
+    }, {
+        "name": "auStart",
+        "type": ["int", "null"]
+    }, {
+        "name": "fType",
+        "type": ["int", "null"]
+    }, {
+        "name": "header",
+        "type": ["int", "null"]
+    }, {
+        "name": "cbPos",
+        "type": ["int", "null"]
+    }, {
+        "name": "relMod",
+        "type": ["int", "null"]
+    }, {
+        "name": "hc",
+        "type": ["int", "null"]
+    }, {
+        "name": "foos",
+        "type": ["int", "null"]
+    }, {
+        "name": "mId",
+        "type": ["long", "null"]
+    }, {
+        "name": "vGeo",
+        "type": ["int", "null"]
+    }, {
+        "name": "auId",
+        "type": ["int", "null"]
+    }, {
+        "name": "creId",
+        "type": ["int", "null"]
+    }, {
+        "name": "tss",
+        "type": ["int", "null"]
+    }, {
+        "name": "tsp",
+        "type": ["int", "null"]
+    }, {
+        "name": "uid",
+        "type": ["long", "null"]
+    }, {
+        "name": "pt",
+        "type": ["int", "null"]
+    }, {
+        "name": "cLoc",
+        "type": ["int", "null"]
+    }, {
+        "name": "pTotalH",
+        "type": ["int", "null"]
+    }, {
+        "name": "pTotalW",
+        "type": ["int", "null"]
+    }, {
+        "name": "ImID",
+        "type": ["string", "null"]
+    }, {
+        "name": "Lrn",
+        "type": ["int", "null"]
+    }, {
+        "name": "pViewH",
+        "type": ["int", "null"]
+    }, {
+        "name": "pViewW",
+        "type": ["int", "null"]
+    }, {
+        "name": "broVerN",
+        "type": ["int", "null"]
+    }, {
+        "name": "vvuid",
+        "type": ["string", "null"]
+    }, {
+        "name": "prot",
+        "type": ["int", "null"]
+    }, {
+        "name": "sprot",
+        "type": ["int", "null"]
+    }, {
+        "name": "ss",
+        "type": ["string", "null"]
+    }, {
+        "name": "osVerN",
+        "type": ["string", "null"]
+    }, {
+        "name": "dType",
+        "type": ["string", "null"]
+    }, {
+        "name": "pSkin",
+        "type": ["int", "null"]
+    }, {
+        "name": "pTemplateId",
+        "type": ["int", "null"]
+    }, {
+        "name": "pTemplateKV",
+        "type": ["string", "null"]
+    }, {
+        "name": "flashVer",
+        "type": ["string", "null"]
+    }, {
+        "name": "city",
+        "type": ["string", "null"]
+    }, {
+        "name": "postalCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "stateProvince",
+        "type": ["string", "null"]
+    }]
+}
+

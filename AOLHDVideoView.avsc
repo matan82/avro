@@ -1,0 +1,122 @@
+{
+    "type": "record",
+    "namespace": "com.aolnetworks.video.event",
+    "name": "AOLHDVideoView",
+    "fields": [{
+        "name": "date",
+        "type": "string"
+    }, {
+        "name": "time",
+        "type": "string"
+    }, {
+        "name": "ip",
+        "type": "string"
+    }, {
+        "name": "countryCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "region",
+        "type": ["string", "null"]
+    }, {
+        "name": "UserAgent",
+        "type": ["string", "null"]
+    }, {
+        "name": "osVer",
+        "type": ["string", "null"]
+    }, {
+        "name": "sid",
+        "type": "int"
+    }, {
+        "name": "sKey",
+        "type": ["int", "null"]
+    }, {
+        "name": "urlId",
+        "type": ["string", "null"]
+    }, {
+        "name": "content",
+        "type": ["int", "null"]
+    }, {
+        "name": "vCat",
+        "type": ["string", "null"]
+    }, {
+        "name": "vid",
+        "type": ["long", "null"]
+    }, {
+        "name": "sessView",
+        "type": ["int", "null"]
+    }, {
+        "name": "auStart",
+        "type": ["int", "null"]
+    }, {
+        "name": "vCQ",
+        "type": ["int", "null"]
+    }, {
+        "name": "vFlg",
+        "type": ["int", "null"]
+    }, {
+        "name": "mId",
+        "type": ["long", "null"]
+    }, {
+        "name": "vGeo",
+        "type": ["int", "null"]
+    }, {
+        "name": "vf",
+        "type": ["int", "null"]
+    }, {
+        "name": "tss",
+        "type": ["int", "null"]
+    }, {
+        "name": "tsp",
+        "type": ["int", "null"]
+    }, {
+        "name": "vvpr",
+        "type": ["int", "null"]
+    }, {
+        "name": "uid",
+        "type": ["long", "null"]
+    }, {
+        "name": "vg",
+        "type": ["int", "null"]
+    }, {
+        "name": "imid",
+        "type": ["string", "null"]
+    }, {
+        "name": "vvuid",
+        "type": ["string", "null"]
+    }, {
+        "name": "DeviceName",
+        "type": ["string", "null"]
+    }, {
+        "name": "DeviceVersion",
+        "type": ["string", "null"]
+    }, {
+         "name": "dType",
+         "type": ["string", "null"]
+    }, {
+         "name": "prot",
+         "type": ["int", "null"]
+    }, {
+         "name": "rend",
+         "type": ["int", "null"]
+    }, {
+         "name": "sessImp",
+         "type": ["int", "null"]
+    }, {
+         "name": "tsr",
+         "type": ["int", "null"]
+    }, {
+         "name": "uit",
+         "type": ["string", "null"]
+    }, {
+        "name": "city",
+        "type": ["string", "null"]
+    }, {
+        "name": "postalCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "stateProvince",
+        "type": ["string", "null"]
+    }]
+}
+
+

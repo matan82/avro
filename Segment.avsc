@@ -1,0 +1,63 @@
+{
+    "type": "record",
+    "namespace": "com.aolnetworks.video.event",
+    "name": "Segment",
+    "fields": [{
+        "name": "date",
+        "type": "string"
+    }, {
+        "name": "time",
+        "type": "string"
+    }, {
+        "name": "ip",
+        "type": "string"
+    }, {
+        "name": "countryCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "region",
+        "type": ["string", "null"]
+    }, {
+        "name": "sid",
+        "type": "int"
+    }, {
+        "name": "sKey",
+        "type": ["int", "null"]
+    }, {
+        "name": "uid",
+        "type": ["long", "null"]
+    }, {
+        "name": "utid",
+        "type": ["string", "null"]
+    }, {
+        "name": "catsReq",
+        "type": ["string", "null"]
+    }, {
+        "name": "content",
+        "type": ["int", "null"]
+    }, {
+        "name": "cqReq",
+        "type": ["int", "null"]
+    }, {
+        "name": "fType",
+        "type": ["int", "null"]
+    }, {
+        "name": "Lrn",
+        "type": ["int", "null"]
+    }, {
+        "name": "seg",
+        "type": ["string", "null"]
+    }, {
+        "name": "segh",
+        "type": ["string", "null"]
+    }, {
+        "name": "city",
+        "type": ["string", "null"]
+    }, {
+        "name": "postalCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "stateProvince",
+        "type": ["string", "null"]
+    }]
+}

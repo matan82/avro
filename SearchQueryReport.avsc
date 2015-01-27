@@ -1,0 +1,51 @@
+{
+    "type": "record",
+    "namespace": "com.aolnetworks.video.event",
+    "name": "SearchQueryReport",
+    "fields": [{
+        "name": "date",
+        "type": "string"
+    }, {
+        "name": "time",
+        "type": "string"
+    }, {
+        "name": "ip",
+        "type": "string"
+    }, {
+        "name": "countryCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "region",
+        "type": ["string", "null"]
+    }, {
+        "name": "sid",
+        "type": "int"
+    }, {
+        "name": "sKey",
+        "type": ["int", "null"]
+    }, {
+        "name": "sq",
+        "type": ["string", "null"]
+    }, {
+        "name": "vids",
+        "type": ["string", "null"]
+    }, {
+        "name": "vidc",
+        "type": ["string", "null"]
+    }, {
+        "name": "src",
+        "type": ["int", "null"]
+    }, {
+        "name": "origin",
+        "type": ["string", "null"]
+    }, {
+        "name": "city",
+        "type": ["string", "null"]
+    }, {
+        "name": "postalCode",
+        "type": ["string", "null"]
+    }, {
+        "name": "stateProvince",
+        "type": ["string", "null"]
+    }]
+}
